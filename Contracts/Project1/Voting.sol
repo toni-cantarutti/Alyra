@@ -3,6 +3,11 @@ pragma solidity 0.8.28;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+/**
+ * @title Voting
+ * @dev Just an Alyra project
+ * @custom:dev-run-script ./scripts/generic_deploy_with_ethers.ts
+ */
 contract Voting is Ownable {
     struct Voter {
         bool isRegistered;
